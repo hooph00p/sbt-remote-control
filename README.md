@@ -12,6 +12,14 @@ general backend for any kind of user interface, command line or GUI.
 
 ## Using
 
+Adding this dependency, make sure that you're using the built-in TypeSafe resolver:
+
+    Resolver.typesafeIvyRepo("releases")
+    
+And add the dependency:
+
+    libraryDependencies += "com.typesafe.sbtrc" % "client-2-11"  % "0.3.2"
+
 TODO - Let's write some documentation, for now check out the tests.
 
 
